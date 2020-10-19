@@ -1,0 +1,32 @@
+**Is algorithm A better than algorithm B?**
+
+The goodness of algorithm is measured by:
+
+Amount of time it takes to solve the problem
+Amount of memory required
+
+So, algorithm which takes less time and less memory is considered better.
+
+* * *
+
+**So what are the factors which makes this comparison fair?**
+
+Vauge Options
+*For Inputs*
+- Giving same input
+- But algorithm A might have advantages over some input which would sound to be 'unfair' to B...
+- So, shall we test for every possible input out there?
+
+*Environment*
+Can we be sure that
+- Randomness in morden computer doesn't affect the performance of the algorithm?
+- Programmer come up with better implemented version of some algorithm to solve that problem?
+- Can compiler always be fair?
+
+* * *
+So, Let's assume an ideal computer (theoritical computer)
+Here, certain primitive operations are executed in constant amount of time
+Step 1. Consider specific input of size 'n'
+Step 2. Count the number of primitive operations executed by computer in given input
+
+The algorithm that results to fewer primitive operations is considerd better...
